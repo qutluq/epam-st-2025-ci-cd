@@ -23,7 +23,7 @@ class App {
 
   start() {
     Router.startRouter();
-    this.cart.updateHeader();
+    this.cart.updateHeade1r();
   }
 }
 
