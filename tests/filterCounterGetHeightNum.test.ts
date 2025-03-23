@@ -22,7 +22,7 @@ test('check typeArr does not contain type', () => {
 });
 
 test('check typeArr is empty', () => {
-  const typeArr: string[] = [];
+  const typeArr: string[] = [''];
   const type = 'short';
   expect(filterHelpers.getHeightNum(typeArr, type)).toBe('0');
 });
