@@ -29,13 +29,13 @@
 
   &__found {
     font-size: 0.8em;
-    color: variables.$grey-medium;
+    color: variables.$green-dark;
     vertical-align: baseline;
   }
 }
 
 .check:hover .check__input ~ .check__span {
-  background-color: variables.$green-extra-light;
+  background-color: variables.$green-dark;
 }
 
 .check__input:checked ~ .check__span {

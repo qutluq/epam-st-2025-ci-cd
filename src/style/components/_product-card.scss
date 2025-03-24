@@ -35,16 +35,16 @@
       right: -8px;
       font-size: 17px;
       font-weight: 900;
-      color: variables.$green-extra-light;
+      color: variables.$green-dark;
     }
 
   }
 
   &__discount {
-    background-color: variables.$purple-medium;
+    background-color: #47324b;
 
     span {
-      color: variables.$purple-light;
+      color: #000000;
     }
 
   }
@@ -60,7 +60,7 @@
   }
 
   &__type {
-    color: variables.$green-extra-light;
+    color: variables.$green-dark;
   }
 
   &__title {
@@ -91,7 +91,7 @@
   &__stock {
     margin-top: 5px;
     margin-right: 10px;
-    color: variables.$green-extra-light;
+    color: variables.$green-dark;
     font-size: 0.8em;
     text-align: right;
   }
