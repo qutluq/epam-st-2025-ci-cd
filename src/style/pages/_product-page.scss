@@ -61,11 +61,11 @@
   background-color: variables.$white-medium;
 
   &:hover {
-    border: 1.5px variables.$green-light solid;
+    border: 1.5px variables.$green-dark solid;
   }
 
   &.product-page__photo-mini_active {
-    border: 1.5px variables.$green-light solid;
+    border: 1.5px variables.$green-dark solid;
   }
 
 }
@@ -94,7 +94,7 @@
 }
 
 .product-page__stoke-text {
-  color: variables.$green-light;
+  color: variables.$green-dark;
   font-weight: bold;
 }
 
@@ -110,7 +110,7 @@
 }
 
 .product-page__new-price {
-  color: variables.$green-light;
+  color: variables.$green-dark;
   font-weight: bold;
   font-size: xx-large;
 
