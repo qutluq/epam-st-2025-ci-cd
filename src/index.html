@@ -11,6 +11,7 @@
   <link rel="preload" href="./assets/fonts/MontserratAlternates-Light.ttf" as="font" crossorigin="anonymous">
   <link rel="preload" href="./assets/fonts/MontserratAlternates-Medium.ttf" as="font" crossorigin="anonymous">
 
+  <link rel="preload" as="image" href="./data/plants/1/1.avif" type="image/avif" fetchpriority="high">
 
   <link rel="preload" href="./style/styles.css" as="style">
   <title>Online-store</title>
@@ -44,7 +45,7 @@
     </main>
     <section id="promo" class="promo">
       <div class="container">
-        <img class="promo__photo" src="assets/img/eucalypt.avif" alt="eucalypt">
+        <img class="promo__photo" src="assets/img/eucalypt.avif" alt="eucalypt" loading="lazy">
         <div class="promo__container">
           <h3 class="promo__title">Get <span>10% OFF</span> on your purchase</h3>
           <div class="promo__descr">Use promo codes:</div>
